@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBuddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#budget-calculator">Budget Estimator</a></li>
+                    <li><a href="#popular-destinations">Popular Destinations</a></li>
+                    <li><a href="#favorites-section">Favorites</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </nav>
+            <h2>TravelBuddy</h2>
+            <p>Journey to Explore World</p>
+            <p>Your ultimate companion for unforgettable travel experiences!</p>
+            <div class="header-buttons">
+                <button onclick="scrollToSection('budget-calculator')">Learn More</button>
+                <button onclick="scrollToSection('popular-destinations')">Explore Now</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="budget-calculator">
+        <div class="form-container">
+            <h2>Travel Cost Estimator</h2>
+            <form id="budget-form">
+                <label for="from-location">Enter Origin</label>
+                <input type="text" id="from-location" placeholder="Enter origin city" required>
+
+                <label for="to-location">Enter Destination</label>
+                <input type="text" id="to-location" placeholder="Enter destination city" required>
+
+                <label for="start-date">Selected Date</label>
+                <input type="date" id="start-date" required>
+
+                <button type="button" id="calculate-budget">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="popular-destinations">
+        <h2>Popular Destinations</h2>
+        <div id="destinations-container" class="destinations-grid"></div>
+    </section>
+
+    <section id="favorites-section">
+        <h2>Your Favorites</h2>
+        <div id="favorites-container" class="destinations-grid"></div>
+    </section>
+
+    <section id="about">
+        <h2>About TravelBuddy</h2>
+        <p>TravelBuddy is your personalized travel planner that helps you choose the best destinations, estimate travel costs, and much more!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TravelBuddy. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        document.getElementByI
+        alert("Budget calculation in progress!");
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
