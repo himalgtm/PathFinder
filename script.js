@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const options = {
             method: 'GET',
             headers: {
-                'x-rapidapi-key': '25921a876dedb40050d925f95b200240',
+                'x-rapidapi-key': 'd7a0967e4emsh43e1f8a6166a338p11f337jsn256b488d08b5',
                 'x-rapidapi-host': 'meteostat.p.rapidapi.com'
             }
         };
