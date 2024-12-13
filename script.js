@@ -1,21 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
     const destinations = [
-                { name: 'Paris', country: 'FR', description: 'City of lights.', image: 'img/paris.jpg', lat: 48.8566, lon: 2.3522 },
-                { name: 'Tokyo', country: 'JP', description: 'Modern and traditional.', image: 'img/tokyo.jpg', lat: 35.6895, lon: 139.6917 },
-                { name: 'New York', country: 'US', description: 'City that never sleeps.', image: 'img/new_york.jpg', lat: 40.7128, lon: -74.0060 },
-                { name: 'Dubai', country: 'AE', description: 'Luxury in the desert.', image: 'img/dubai.jpg', lat: 25.276987, lon: 55.296249 },
-                { name: 'Sydney', country: 'AU', description: 'Landmarks by the water.', image: 'img/sydney.jpg', lat: -33.8688, lon: 151.2093 },
-                { name: 'Athens', country: 'GR', description: 'Birthplace of democracy and ancient ruins.', image: 'img/athens.jpg', lat: 37.9838, lon: 23.7275 },
-                { name: 'Banff', country: 'CA', description: 'Majestic mountains and crystal-clear lakes.', image: 'img/banff.jpg', lat: 51.1784, lon: -115.5708 },
-                { name: 'Barcelona', country: 'ES', description: 'Gaudi architecture and Mediterranean vibes.', image: 'img/barcelona.jpg', lat: 41.3851, lon: 2.1734 },
-                { name: 'Honolulu', country: 'US', description: 'Tropical paradise with pristine beaches.', image: 'img/honolulu.jpg', lat: 21.3069, lon: -157.8583 },
-                { name: 'Edinburgh', country: 'GB', description: 'Historic castles and dramatic landscapes.', image: 'img/edinburgh.jpg', lat: 55.9533, lon: -3.1883 },
-                { name: 'Maldives', country: 'MV', description: 'Luxurious overwater villas and turquoise waters.', image: 'img/maldives.jpg', lat: 3.2028, lon: 73.2207 },
-                { name: 'Milford Sound', country: 'NZ', description: 'Breathtaking fjords and natural beauty.', image: 'img/milford.jpg', lat: -44.6167, lon: 167.8667 },
-                { name: 'Kathmandu', country: 'NP', description: 'A rich blend of culture and history.', image: 'img/kathmandu.jpg', lat: 27.7172, lon: 85.3240 },
-                { name: 'Berlin', country: 'DE', description: 'A city of history, culture, and modernity.', image: 'img/berlin.jpg', lat: 52.5200, lon: 13.4050 },
-                { name: 'Reykjavik', country: 'IS', description: 'Land of fire and ice with geothermal spas.', image: 'img/reykjavik.jpg', lat: 64.1355, lon: -21.8954 },
-                { name: 'Santorini', country: 'GR', description: 'Whitewashed houses and stunning sunsets.', image: 'img/santorini.jpg', lat: 36.3932, lon: 25.4615 }
+                { name: 'Paris', country: 'FR', description: 'City of lights.', image: 'paris.jpg', lat: 48.8566, lon: 2.3522 },
+                { name: 'Tokyo', country: 'JP', description: 'Modern and traditional.', image: 'tokyo.jpg', lat: 35.6895, lon: 139.6917 },
+                { name: 'New York', country: 'US', description: 'City that never sleeps.', image: 'new_york.jpg', lat: 40.7128, lon: -74.0060 },
+                { name: 'Dubai', country: 'AE', description: 'Luxury in the desert.', image: 'dubai.jpg', lat: 25.276987, lon: 55.296249 },
+                { name: 'Sydney', country: 'AU', description: 'Landmarks by the water.', image: 'sydney.jpg', lat: -33.8688, lon: 151.2093 },
+                { name: 'Athens', country: 'GR', description: 'Birthplace of democracy and ancient ruins.', image: 'athens.jpg', lat: 37.9838, lon: 23.7275 },
+                { name: 'Banff', country: 'CA', description: 'Majestic mountains and crystal-clear lakes.', image: 'banff.jpg', lat: 51.1784, lon: -115.5708 },
+                { name: 'Barcelona', country: 'ES', description: 'Gaudi architecture and Mediterranean vibes.', image: 'barcelona.jpg', lat: 41.3851, lon: 2.1734 },
+                { name: 'Honolulu', country: 'US', description: 'Tropical paradise with pristine beaches.', image: 'honolulu.jpg', lat: 21.3069, lon: -157.8583 },
+                { name: 'Edinburgh', country: 'GB', description: 'Historic castles and dramatic landscapes.', image: 'edinburgh.jpg', lat: 55.9533, lon: -3.1883 },
+                { name: 'Maldives', country: 'MV', description: 'Luxurious overwater villas and turquoise waters.', image: 'maldives.jpg', lat: 3.2028, lon: 73.2207 },
+                { name: 'Milford Sound', country: 'NZ', description: 'Breathtaking fjords and natural beauty.', image: 'milford.jpg', lat: -44.6167, lon: 167.8667 },
+                { name: 'Kathmandu', country: 'NP', description: 'A rich blend of culture and history.', image: 'kathmandu.jpg', lat: 27.7172, lon: 85.3240 },
+                { name: 'Berlin', country: 'DE', description: 'A city of history, culture, and modernity.', image: 'berlin.jpg', lat: 52.5200, lon: 13.4050 },
+                { name: 'Reykjavik', country: 'IS', description: 'Land of fire and ice with geothermal spas.', image: 'reykjavik.jpg', lat: 64.1355, lon: -21.8954 },
+                { name: 'Santorini', country: 'GR', description: 'Whitewashed houses and stunning sunsets.', image: 'santorini.jpg', lat: 36.3932, lon: 25.4615 }
             ];
     
     const favorites = [];
